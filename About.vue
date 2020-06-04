@@ -44,7 +44,9 @@
           </v-row>
 
         </v-form>
-
+        <div style="border: 2px solid gray">
+                Данный раздел отвечает за поиск нужного сотрудника, который осуществялеятся по введенному коду оператора в текстовое поле выше
+        </div>
         <div class="text-center ma-2">
           <v-snackbar
             v-model="snackbar"
